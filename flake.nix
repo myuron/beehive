@@ -29,7 +29,9 @@
         devShells = {
           default = pkgs.mkShell {
             packages = with pkgs; [
+              nodejs_26
               pnpm_11
+              supabase-cli
             ];
           };
         };
